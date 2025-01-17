@@ -4,10 +4,9 @@ Repository contains the resource for running the MD Simulation of Lysozyme in wa
 
 - 1aki.pdb - Intial structure of the system (https://www.rcsb.org/structure/1aki)
 
-  # Preparation of clean PDB structure.
-  grep -v HOH 1aki.pdb > 1aki_clean.pdb
-  
-# Note:- This step is not appropriate for all simulation (In this simulation we do not need crystal water.)
+Preparation of clean PDB structure.
+  grep -v HOH 1aki.pdb > 1aki_clean.pdb 
+Note:- This step is not appropriate for all simulation (In this simulation we do not need crystal water.)
 
 - 1aki_clean.pdb - PDB structure of the protein free from solvent.
 - topol.top - Topology file of the 1AKI struture 
