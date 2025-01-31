@@ -1,6 +1,6 @@
 # Lysozyme in Water - MD Simulation
 
-Repository contains the resource for running the MD Simulation of Lysozyme in water using a single bash script. The workflow invloves the setting up the system (protein) in the box, neutralization with the ions, energy minimization, nvt equilibration, npt equilibration and production run using the GROMACS-2024 patched with PLUMED-2.11.0-dev with 2 threads in one GPU.
+Repository contains the resource for running the MD Simulation of Lysozyme in water using a single bash script. The workflow invloves the setting up the system (protein) in the box, neutralization with the ions, energy minimization, nvt equilibration, npt equilibration and production run using the GROMACS-2024 patched with PLUMED-2.11.0-dev.
 
 - 1aki.pdb - Intial structure of the system (https://www.rcsb.org/structure/1aki)
 
